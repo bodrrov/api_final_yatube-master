@@ -1,0 +1,25 @@
+###
+POST http://localhost:8000/api/v1/token/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "bodrov",
+  "password": "123"
+}
+
+###
+GET http://localhost:8000/api/v1/posts/
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgwMzQ5NjY4LCJqdGkiOiJiNmNiODc3ZGE2NGY0ZjUxODA4ZjY5N2YxOGUzOWNlYiIsInVzZXJfaWQiOjF9.TV0fu8KethNPqFbmSZGw9r01SYv0gOVM5kuFQ7MRwf0
+
+
+
+###
+DELETE http://localhost:8000/api/v1/posts/
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgwMzQ5NjY4LCJqdGkiOiJiNmNiODc3ZGE2NGY0ZjUxODA4ZjY5N2YxOGUzOWNlYiIsInVzZXJfaWQiOjF9.TV0fu8KethNPqFbmSZGw9r01SYv0gOVM5kuFQ7MRwf0
+
+{
+    "id":"3"
+}
